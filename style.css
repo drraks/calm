@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 0;
+    background-color: transparent;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    font-family: "Spectral", serif;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color: #000000;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+}
+p{
+    margin: 0;
+}
+.start{
+    height: 100vh;
+
+}
+.shapka{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px 0px 100px;
+}
+.links{
+    display: flex;
+    gap: 40px;
+}
+.welcome{
+    margin: 0 auto;
+    width: 550px;
+    margin-top: 200px;
+}
+.blog{
+    font-size: 30px;
+    color: #353732;
+    font-weight: 500;
+}
+.fotki{
+    background-color: #FAFAFA;
+}
+.center{
+    height: 100vh;
+    margin: 0 auto;
+    width: 800px;
+}
+.podval{
+    background-color: rgb(255, 255, 255);
+    height: 270px;
+    width: 570px;
+    padding: 10px 7px 0px 7px;
+}
+.name{
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #353732;
+}
+.iceland{
+    color: #45525B;
+    font-size: 27px;
+    font-weight: 500;
+}
+.iceland-text{
+    color: #45525B;
+}
+.gora{
+    height: 320px;
+}
+.data{
+    color: #45525B;
+    margin-top: 70px;
+}
+.foto{
+    display: flex;
+    gap: 5px;
+}
+.podval2{
+    background-color: rgb(255, 255, 255);
+    height: 160px;
+    width: 285px;
+    padding: 10px 7px 0px 7px;
+}
+.skololas{
+    height: 160px;
+}
